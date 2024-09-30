@@ -167,14 +167,154 @@
 
 
 // let elder = confirm("Are you sure you above 18+");
-let younger = confirm("Are you below 18");
+// let younger = confirm("Are you below 18");
 
-if(elder) {
-    let name = prompt("Please enter your name");
-    document.write("Youy are" + name +  "eligible for vote");
+// if(elder) {
+//     let name = prompt("Please enter your name");
+//     document.write("Youy are" + name +  "eligible for vote");
     
-}
-else{
-    let name = prompt("please enter your name");
-    document.write("you are "   +    name +    "not eligble for vote");
-}
+// }
+// else{
+//     let name = prompt("please enter your name");
+//     document.write("you are "   +    name +    "not eligble for vote");
+// }
+
+
+
+
+//Type Conversion
+// var a="55";
+
+// var b=10;
+
+// document.write(typeof a );
+// document.write(typeof b);
+
+
+
+
+
+//switch case statement
+
+
+// switch(true){
+//     case 10>20:
+//          answer = "redColor";
+//         break;
+        
+//         case 10<5:
+//              answer = "green color";
+//             break;
+
+//             case 10==5:
+//                  answer = " Yello Color";
+//                 break;
+//                 default:
+//                      answer = "none of the above";
+//                     break;
+// }
+// document.write( answer);
+
+
+
+
+
+
+//Write switch case program with coverd topics
+
+
+
+// var name = prompt("Enter your name");
+
+// var marks = prompt("Enter your Marks");
+
+// switch(true){
+//     case marks>90 && marks <= 100:
+//         result="great you are the topper";
+//         break;
+//         case marks>65 && marks <= 90:
+//             result= "Congratulation you got first grade";
+//             break;
+//             case marks>30 && marks <= 65:
+//                 result= "You got second grade";
+//                 break;
+//                 case marks>10 && marks <= 30:
+//                     result= "sorry you are failed";
+//                     break;
+//                     default:
+//                         result="Enter your marks";
+//                         break;
+// }
+// document.write(result);
+
+
+
+
+
+
+
+
+// switch(true){
+//     case age>90 && age <= 100:
+//         result = "You are older";
+//         break;
+//         case age > 60 && age <=90:
+//             result = " you are senior citizen";
+//             break;
+
+//             case age > 20 && age <= 40:
+//                 result = " you are youth ";
+//                 break;
+
+//                 case age>18 && age <= 20:
+//                     result = " you are major";
+//                     break;
+
+//                     case age>10 && age<=18:
+//                         result="you are kid";
+//                         break;
+
+//                         default:
+//                             result:"Please enter your age";
+//                             break;
+// }
+
+// document.write("Hello"+"<h1>"  + name + "</h1>"+ result);
+
+
+
+
+
+// Functions
+
+
+// function course(){
+//     document.write("FrondEnd Development");
+// }
+// course();
+
+
+
+// function apple(){
+//     document.write("Apple colour is red" + "<br>");
+// }
+// apple();
+// apple();
+// apple();
+// apple();
+// apple();
+// apple();
+// apple();
+// apple();
+// apple();
+// apple();
+// apple();
+// apple();
+// apple();
+// apple();
+// apple();
+
+
+
+
+
