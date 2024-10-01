@@ -318,3 +318,191 @@
 
 
 
+//Methods
+
+
+//let collections = ["akash", 55 true, {name: "Prathap"}]
+
+//Push() = ("Adds one more elements to the end of an array and returns the new lenght")
+
+
+
+
+// let sports = ["cricket", "football"]
+
+
+// sports.push("socker", 687)
+
+
+
+// document.write(sports + "<br>")
+// document.write(sports.length + "<br>")
+
+
+
+
+//Pop()
+
+
+// let books = ["Maths", "Physics", "Chemistry"];
+
+// let someResult = books.pop()
+
+
+
+// document.write(books + "<br>")
+
+
+// document.write("Deleted by pop method is " + someResult)
+
+
+
+
+
+//shift()
+
+
+
+// let states = ["Delhi", "Mumbai", "Hyderbad"];
+
+// let newStates = states.shift()
+
+// document.write(states + "<br>");
+
+// document.write(states.length + "<br>")
+
+
+// document.write(newStates + "<br>");
+
+
+
+
+
+
+
+//unshift()
+
+// let scores = [22, 56, 89, 105, "amar"];
+
+
+// scores.unshift("suresh", 26);
+
+// document.write(scores + "<br>")
+
+// document.write(scores.length);
+
+
+
+
+//contact()
+
+
+
+// let scores = [11, 22, 33, 44];
+
+
+// let players = ["amith", "suresh", "mahesh"]
+
+// let newPlayers = scores.concat(players)
+
+// document.write(newPlayers);
+
+
+
+
+//join() = "create a new string by concatening all the elements of an array"
+
+
+
+// var team =[10,20, 30, "sunil", "anil", "madhav"]
+
+// var myTeam = team. join("****")
+
+// document.write(myTeam);
+
+
+// //slice() = "return a shallow copy of a portion of an array into a new array"
+
+
+// let students = ["anil", "balu", "karthik", 10, 20, 30, 40, 50]
+
+// let myStudents = students.slice(0, 3)
+
+
+// document.write(myStudents)
+
+// console.log(students)
+
+
+
+
+//splice()
+
+
+
+// let myNumbers = [0,1,2,3,4,5,6,7,8];
+
+
+//  let myNumbers = myNumbers.splice(0,5);
+
+//  document.write(myNumbers + "<br>");
+
+
+//  document.write(myNumbers);
+
+
+
+
+
+
+
+
+//indexOf()
+
+
+
+// let students = ["Anil", "Banti", "Mahesh", "Girish"];
+
+
+// var newStudent = students.indexOf("Satish");
+
+// if (newStudent === -1){
+//     students.push("Satish")
+// }
+
+// document.write(students);
+
+
+
+
+//Arrorw functions
+
+
+// var Frontend = "HTML & CSS";
+// document.write("Developing website with" +  Frondend );
+
+
+// var FrondEnd = "HTML & CSS";
+
+// document.write(`Developing websites with ${FrondEnd}`);
+
+
+
+
+// Function to square each number in an array
+const squareNumbers = (numbers) => {
+    return numbers.map(num => num * num);
+};
+
+// Example usage
+const numbers = [1, 2, 3, 4, 5];
+const squared = squareNumbers(numbers);
+
+document.write(squared); 
+
+
+
+
+
+
+
